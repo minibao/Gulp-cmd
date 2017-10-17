@@ -1,0 +1,32 @@
+npm install gulp-less --save-dev    less
+
+/*补全各浏览器的前辍*/
+npm install --save-dev gulp-postcss  
+npm install autoprefixer --save-dev
+npm install cssnext --save-dev
+npm install precss --save-dev 
+
+/*压缩CSS为一行、对文件名加MD5后缀、路径替换、多个文件合并为一个*/
+npm install gulp gulp-concat gulp-minify-css gulp-rev gulp-rev-collector --save-dev
+
+
+npm install --save-dev gulp-clean
+
+
+
+sass的编译                  （gulp-ruby-sass）
+自动添加css前缀              （gulp-autoprefixer）
+压缩css                    （gulp-minify-css）
+js代码校验                  （gulp-jshint）
+合并js文件                  （gulp-concat）
+压缩js代码                  （gulp-uglify）
+压缩图片                    （gulp-imagemin）
+自动刷新页面                 （gulp-livereload）
+图片缓存，只有图片替换了才压缩  （gulp-cache）
+更改提醒                    （gulp-notify）
+清除文件                    （del）
+
+
+.pipe(revCollector({
+            replaceReved:true          //一定要加上这一句，不然不会替换掉上一次的值
+        }))
