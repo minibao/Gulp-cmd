@@ -1,0 +1,14 @@
+/**
+ * 文档注释
+ */
+ 安装： CTRL +Shift+P -> Install Package -> docblockr 
+ 
+ /**
+ * 代码格式化
+ */
+ 安装： CTRL +Shift+P -> Install Package ->  HTML-CSS-JS Prettify 
+
+/**
+ * emmet
+ */
+ 安装： CTRL +Shift+P -> Install Package ->  Emmet
